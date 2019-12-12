@@ -9,6 +9,11 @@ class Rectangle {
       return miPerimetro;
 
     }
+
+    area(ladoA, ladoB){
+      let miArea = this.ladoA*this.ladoB;
+      return miArea;
+    }
   }
 
   module.exports = Rectangle;
