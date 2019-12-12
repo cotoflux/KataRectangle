@@ -1,16 +1,15 @@
 class Rectangle {
-    constructor() {
-      this.ladoA = 3;
-      this.ladoB = 4;
+    constructor(base, altura) {
+      this.ladoA = altura;
+      this.ladoB = base;
     }
-  
-    perimetro(ladoA, ladoB) {
+
+     perimetro() {
       let miPerimetro = this.ladoA*2 + this.ladoB*2;
       return miPerimetro;
-
     }
 
-    area(ladoA, ladoB){
+    area(){
       let miArea = this.ladoA*this.ladoB;
       return miArea;
     }
